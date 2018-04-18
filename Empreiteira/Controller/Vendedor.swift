@@ -16,4 +16,6 @@ class Vendedor: Pessoa {
         self.nome = nome
         self.telefone = telefone
     }
+    
+    
 }
