@@ -11,5 +11,4 @@ import Cocoa
 struct Andar{
     var apartamentos :  [Apartamento]
     var numAndar : Int
-    //ja tem um construtor default pq é uma struct
 }
