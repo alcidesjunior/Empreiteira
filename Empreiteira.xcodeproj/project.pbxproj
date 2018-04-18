@@ -20,6 +20,8 @@
 		BED834B2208772220082B2CC /* Predio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B1208772220082B2CC /* Predio.swift */; };
 		BED834B4208772300082B2CC /* Apartamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B3208772300082B2CC /* Apartamento.swift */; };
 		BED834B620878AC70082B2CC /* Andar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B520878AC70082B2CC /* Andar.swift */; };
+		BED834B82087AF590082B2CC /* Obra.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B72087AF590082B2CC /* Obra.swift */; };
+		BED834BA2087B1A50082B2CC /* Empreiteira.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B92087B1A50082B2CC /* Empreiteira.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +51,8 @@
 		BED834B1208772220082B2CC /* Predio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predio.swift; sourceTree = "<group>"; };
 		BED834B3208772300082B2CC /* Apartamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartamento.swift; sourceTree = "<group>"; };
 		BED834B520878AC70082B2CC /* Andar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Andar.swift; sourceTree = "<group>"; };
+		BED834B72087AF590082B2CC /* Obra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obra.swift; sourceTree = "<group>"; };
+		BED834B92087B1A50082B2CC /* Empreiteira.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empreiteira.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				BED834B0208771FC0082B2CC /* Predios */,
 				BEB5A9BB208771DA006D4E4C /* Profissionais */,
 				BED834A920876F810082B2CC /* main.swift */,
+				BED834B92087B1A50082B2CC /* Empreiteira.swift */,
 			);
 			path = Empreiteira;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 				BED834B1208772220082B2CC /* Predio.swift */,
 				BED834B3208772300082B2CC /* Apartamento.swift */,
 				BED834B520878AC70082B2CC /* Andar.swift */,
+				BED834B72087AF590082B2CC /* Obra.swift */,
 			);
 			path = Predios;
 			sourceTree = "<group>";
@@ -181,9 +187,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED834B4208772300082B2CC /* Apartamento.swift in Sources */,
+				BED834BA2087B1A50082B2CC /* Empreiteira.swift in Sources */,
 				BED834B2208772220082B2CC /* Predio.swift in Sources */,
 				BEB5A9D02087B970006D4E4C /* Pessoa.swift in Sources */,
 				BEB5A9C720877259006D4E4C /* Servente.swift in Sources */,
+				BED834B82087AF590082B2CC /* Obra.swift in Sources */,
 				BEB5A9BF20877228006D4E4C /* Arquiteto.swift in Sources */,
 				BED834B620878AC70082B2CC /* Andar.swift in Sources */,
 				BEB5A9CE20878972006D4E4C /* Cliente.swift in Sources */,
