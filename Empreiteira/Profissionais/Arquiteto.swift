@@ -17,7 +17,7 @@ class Arquiteto: Profissional {
     var salario: Double
     var cra : Int?
     
-    convenience init(nome: String, endereco: String, fone: String, salario: Double, cra: Int, qtdHorasTrab: Int) {
+    convenience init(nome: String, endereco: String, fone: String, salario: Double, cra: Int, qtdHorasTrab: Int = 8) {
         self.init(nome: nome, endereco: endereco, fone: fone, salario: salario, qtdHorasTrab: qtdHorasTrab)
         self.cra = cra
     }

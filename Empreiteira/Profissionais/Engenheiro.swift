@@ -17,12 +17,12 @@ class Engenheiro: Profissional {
     var salario: Double
     var crea : Int?
     
-    convenience init(nome: String, endereco: String, fone: String, qtdHorasTrab: Int, salario: Double, crea: Int){
-        self.init(nome: nome, endereco: endereco, fone: fone, qtdHorasTrab: qtdHorasTrab, salario: salario)
+    convenience init(nome: String, endereco: String, fone: String, salario: Double, crea: Int, qtdHorasTrab: Int = 8){
+        self.init(nome: nome, endereco: endereco, fone: fone, salario: salario, qtdHorasTrab: qtdHorasTrab)
         self.crea = crea
     }
     
-    required init(nome: String, endereco: String, fone: String, qtdHorasTrab: Int, salario: Double) {
+    required init(nome: String, endereco: String, fone: String, salario: Double, qtdHorasTrab: Int) {
         self.nome = nome
         self.endereco = endereco
         self.fone = fone
