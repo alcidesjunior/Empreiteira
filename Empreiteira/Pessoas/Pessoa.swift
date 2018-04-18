@@ -11,4 +11,5 @@ import Cocoa
 protocol Pessoa {
     var nome : String{get}
     var telefone : String{get}
+    init(nome: String,telefone: String)
 }

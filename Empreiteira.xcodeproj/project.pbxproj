@@ -84,9 +84,9 @@
 		BEB5A9CA2087873C006D4E4C /* Pessoas */ = {
 			isa = PBXGroup;
 			children = (
+				BEB5A9CF2087B970006D4E4C /* Pessoa.swift */,
 				BEB5A9CB20878758006D4E4C /* Vendedor.swift */,
 				BEB5A9CD20878972006D4E4C /* Cliente.swift */,
-				BEB5A9CF2087B970006D4E4C /* Pessoa.swift */,
 			);
 			path = Pessoas;
 			sourceTree = "<group>";

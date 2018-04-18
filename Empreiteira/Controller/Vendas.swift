@@ -9,5 +9,13 @@
 import Cocoa
 
 class Vendas: NSObject {
-
+    weak var apartamento : Apartamento?
+    weak var vendedor : Vendedor?
+    var valor : Double
+    
+    init(apartamento: Apartamento,vendedor: Vendedor,valor: Double){
+        self.apartamento = apartamento
+        self.vendedor = vendedor
+        self.valor = valor
+    }
 }
