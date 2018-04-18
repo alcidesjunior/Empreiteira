@@ -8,6 +8,12 @@
 
 import Cocoa
 
-class Vendedor: NSObject {
-
+class Vendedor: Pessoa {
+    var nome: String
+    var telefone: String
+    var vendas : Vendas?
+    required init(nome: String, telefone: String) {
+        self.nome = nome
+        self.telefone = telefone
+    }
 }

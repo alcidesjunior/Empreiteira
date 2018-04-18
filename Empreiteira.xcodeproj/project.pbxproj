@@ -15,6 +15,8 @@
 		BEB5A9C720877259006D4E4C /* Servente.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9C620877259006D4E4C /* Servente.swift */; };
 		BEB5A9CC20878758006D4E4C /* Vendedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9CB20878758006D4E4C /* Vendedor.swift */; };
 		BEB5A9CE20878972006D4E4C /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9CD20878972006D4E4C /* Cliente.swift */; };
+		BEB5A9D02087B970006D4E4C /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9CF2087B970006D4E4C /* Pessoa.swift */; };
+		BEB5A9D32087BBF6006D4E4C /* Vendas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9D22087BBF6006D4E4C /* Vendas.swift */; };
 		BED834AA20876F810082B2CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834A920876F810082B2CC /* main.swift */; };
 		BED834B2208772220082B2CC /* Predio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B1208772220082B2CC /* Predio.swift */; };
 		BED834B4208772300082B2CC /* Apartamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B3208772300082B2CC /* Apartamento.swift */; };
@@ -44,6 +46,8 @@
 		BEB5A9C620877259006D4E4C /* Servente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servente.swift; sourceTree = "<group>"; };
 		BEB5A9CB20878758006D4E4C /* Vendedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendedor.swift; sourceTree = "<group>"; };
 		BEB5A9CD20878972006D4E4C /* Cliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
+		BEB5A9CF2087B970006D4E4C /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		BEB5A9D22087BBF6006D4E4C /* Vendas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendas.swift; sourceTree = "<group>"; };
 		BED834A620876F810082B2CC /* Empreiteira */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Empreiteira; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED834A920876F810082B2CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BED834B1208772220082B2CC /* Predio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predio.swift; sourceTree = "<group>"; };
@@ -80,10 +84,19 @@
 		BEB5A9CA2087873C006D4E4C /* Pessoas */ = {
 			isa = PBXGroup;
 			children = (
+				BEB5A9CF2087B970006D4E4C /* Pessoa.swift */,
 				BEB5A9CB20878758006D4E4C /* Vendedor.swift */,
 				BEB5A9CD20878972006D4E4C /* Cliente.swift */,
 			);
 			path = Pessoas;
+			sourceTree = "<group>";
+		};
+		BEB5A9D12087BBC9006D4E4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEB5A9D22087BBF6006D4E4C /* Vendas.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		BED8349D20876F810082B2CC = {
@@ -105,6 +118,7 @@
 		BED834A820876F810082B2CC /* Empreiteira */ = {
 			isa = PBXGroup;
 			children = (
+				BEB5A9D12087BBC9006D4E4C /* Controller */,
 				BEB5A9CA2087873C006D4E4C /* Pessoas */,
 				BED834B0208771FC0082B2CC /* Predios */,
 				BEB5A9BB208771DA006D4E4C /* Profissionais */,
@@ -186,10 +200,12 @@
 				BED834B4208772300082B2CC /* Apartamento.swift in Sources */,
 				BED834BA2087B1A50082B2CC /* Empreiteira.swift in Sources */,
 				BED834B2208772220082B2CC /* Predio.swift in Sources */,
+				BEB5A9D02087B970006D4E4C /* Pessoa.swift in Sources */,
 				BEB5A9C720877259006D4E4C /* Servente.swift in Sources */,
 				BED834B82087AF590082B2CC /* Obra.swift in Sources */,
 				BEB5A9BF20877228006D4E4C /* Arquiteto.swift in Sources */,
 				BED834B620878AC70082B2CC /* Andar.swift in Sources */,
+				BEB5A9D32087BBF6006D4E4C /* Vendas.swift in Sources */,
 				BEB5A9CE20878972006D4E4C /* Cliente.swift in Sources */,
 				BEB5A9CC20878758006D4E4C /* Vendedor.swift in Sources */,
 				BEB5A9BD2087721F006D4E4C /* Profissional.swift in Sources */,
