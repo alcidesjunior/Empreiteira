@@ -20,9 +20,5 @@ class Apartamento: NSObject {
         self.tamMQuad   = tamMQuad
         self.vendido = vendido
     }
-    func venderAp(comprador : Cliente, vendedor : Vendedor){
-        self.comprador = comprador
-        self.vendedor = vendedor
-        self.vendido = true
-    }
+    
 }

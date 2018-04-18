@@ -29,6 +29,14 @@ class Predio: NSObject {
     func calculaValorAp(numAndar : Int, numAp: Int)->Double{
         return (self.taxaFixa) * Double(numAndar) + ((self.andares.filter{($0.numAndar == numAndar)}).first?.apartamentos.filter{$0.numAp==numAndar}.first?.tamMQuad)!*self.precoMQuad
     }
+    
+    func venderAp(numAndar : Int, numAp: Int,comprador : Cliente, vendedor : Vendedor){
+        // Aux
+        let myFilter = ((self.andares.filter{($0.numAndar == numAndar)}).first?.apartamentos.filter{$0.numAp==numAndar}.first)!
+        myFilter.comprador = comprador
+        myFilter.vendedor = vendedor
+        myFilter.vendido = true
+    }
     // Planejamento -> Arquiteto: Elaboracao de projeto, compra do terro, etc.
     
     // Construcao -> Exige um terreno, engenheiro e pelo menos um mestre de obras
