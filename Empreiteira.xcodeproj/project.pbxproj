@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEB5A9BD2087721F006D4E4C /* Profissional.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9BC2087721E006D4E4C /* Profissional.swift */; };
+		BEB5A9BF20877228006D4E4C /* Arquiteto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9BE20877228006D4E4C /* Arquiteto.swift */; };
+		BEB5A9C120877233006D4E4C /* Engenheiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9C020877233006D4E4C /* Engenheiro.swift */; };
+		BEB5A9C320877242006D4E4C /* MestreDeObra.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9C220877242006D4E4C /* MestreDeObra.swift */; };
+		BEB5A9C52087724D006D4E4C /* Pedreiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9C42087724D006D4E4C /* Pedreiro.swift */; };
+		BEB5A9C720877259006D4E4C /* Servente.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5A9C620877259006D4E4C /* Servente.swift */; };
 		BED834AA20876F810082B2CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834A920876F810082B2CC /* main.swift */; };
 		BED834B2208772220082B2CC /* Predio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B1208772220082B2CC /* Predio.swift */; };
 		BED834B4208772300082B2CC /* Apartamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B3208772300082B2CC /* Apartamento.swift */; };
@@ -25,6 +31,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BEB5A9BC2087721E006D4E4C /* Profissional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profissional.swift; sourceTree = "<group>"; };
+		BEB5A9BE20877228006D4E4C /* Arquiteto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arquiteto.swift; sourceTree = "<group>"; };
+		BEB5A9C020877233006D4E4C /* Engenheiro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engenheiro.swift; sourceTree = "<group>"; };
+		BEB5A9C220877242006D4E4C /* MestreDeObra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MestreDeObra.swift; sourceTree = "<group>"; };
+		BEB5A9C42087724D006D4E4C /* Pedreiro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedreiro.swift; sourceTree = "<group>"; };
+		BEB5A9C620877259006D4E4C /* Servente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servente.swift; sourceTree = "<group>"; };
 		BED834A620876F810082B2CC /* Empreiteira */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Empreiteira; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED834A920876F810082B2CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BED834B1208772220082B2CC /* Predio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predio.swift; sourceTree = "<group>"; };
@@ -42,6 +54,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEB5A9BB208771DA006D4E4C /* Profissionais */ = {
+			isa = PBXGroup;
+			children = (
+				BEB5A9BC2087721E006D4E4C /* Profissional.swift */,
+				BEB5A9BE20877228006D4E4C /* Arquiteto.swift */,
+				BEB5A9C020877233006D4E4C /* Engenheiro.swift */,
+				BEB5A9C220877242006D4E4C /* MestreDeObra.swift */,
+				BEB5A9C42087724D006D4E4C /* Pedreiro.swift */,
+				BEB5A9C620877259006D4E4C /* Servente.swift */,
+			);
+			path = Profissionais;
+			sourceTree = "<group>";
+		};
 		BED8349D20876F810082B2CC = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				BED834B0208771FC0082B2CC /* Predios */,
+				BEB5A9BB208771DA006D4E4C /* Profissionais */,
 				BED834A920876F810082B2CC /* main.swift */,
 			);
 			path = Empreiteira;
@@ -103,7 +129,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Academy;
 				TargetAttributes = {
 					BED834A520876F810082B2CC = {
@@ -136,7 +162,13 @@
 			files = (
 				BED834B4208772300082B2CC /* Apartamento.swift in Sources */,
 				BED834B2208772220082B2CC /* Predio.swift in Sources */,
+				BEB5A9C720877259006D4E4C /* Servente.swift in Sources */,
+				BEB5A9BF20877228006D4E4C /* Arquiteto.swift in Sources */,
+				BEB5A9BD2087721F006D4E4C /* Profissional.swift in Sources */,
 				BED834AA20876F810082B2CC /* main.swift in Sources */,
+				BEB5A9C52087724D006D4E4C /* Pedreiro.swift in Sources */,
+				BEB5A9C120877233006D4E4C /* Engenheiro.swift in Sources */,
+				BEB5A9C320877242006D4E4C /* MestreDeObra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +189,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -164,6 +197,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -214,6 +248,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -221,6 +256,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
