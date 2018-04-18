@@ -20,24 +20,22 @@ class Predio : Obra{
     var precoMQuad : Double //preco metro quadrado
     var andares : [Andar]
     let taxaFixa : Double = 0.03
-    var obra : Obra
     
-    init(estado: Estado, precoMQuad : Double, andares: [Andar], obra : Obra,eng : Engenheiro, arq: Arquiteto, mest : [MestreDeObra], ped : [Pedreiro], serv : [Servente]) {
+    init(estado: Estado, precoMQuad : Double, andares: [Andar],eng : Engenheiro, arq: Arquiteto, mest : [MestreDeObra], ped : [Pedreiro], serv : [Servente]) {
         self.precoMQuad = precoMQuad
         self.estado     = estado
         self.andares    = andares
-        self.obra = obra
         super.init(eng: eng, arq: arq, mest: mest, ped: ped, serv: serv)
     }
     
     func calculaValorAp(numAndar : Int, numAp: Int)->Double{
-        return (self.taxaFixa) * Double(numAndar) + ((self.andares.filter{($0.numAndar == numAndar)}).first?.apartamentos.filter{$0.numAp==numAndar}.first?.tamMQuad)!*self.precoMQuad
+        return (self.taxaFixa) * Double(numAndar) + ((self.andares.filter{($0.numAndar == numAndar)}).first?.apartamentos.filter{$0.numAp==numAp}.first?.tamMQuad)!*self.precoMQuad
     }
 
     
     func venderAp(numAndar : Int, numAp: Int,comprador : Cliente, vendedor : Vendedor){
         // Aux
-        let myFilter = ((self.andares.filter{($0.numAndar == numAndar)}).first?.apartamentos.filter{$0.numAp==numAndar}.first)!
+        let myFilter = ((self.andares.filter{($0.numAndar == numAndar)}).first?.apartamentos.filter{$0.numAp==numAp}.first)!
         myFilter.comprador = comprador
         myFilter.vendedor = vendedor
         myFilter.vendido = true
