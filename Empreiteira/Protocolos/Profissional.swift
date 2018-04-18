@@ -8,12 +8,9 @@
 
 import Cocoa
 
-protocol Profissional {
-    var nome: String { get set }
-    var endereco : String { get set }
-    var fone : String { get set }
+protocol Profissional : Pessoa {
     var qtdHorasTrab: Int  { get set }
     var salario: Double  { get set }
-    init(nome: String, endereco: String, fone: String,salario: Double,qtdHorasTrab: Int)
+    init(nome: String, endereco: String, telefone: String,salario: Double,qtdHorasTrab: Int)
 }
 

@@ -9,27 +9,26 @@
 import Cocoa
 
 class Arquiteto: Profissional {
-    
     var nome: String
     var endereco: String
-    var fone: String
+    var telefone: String
     var qtdHorasTrab: Int
     var salario: Double
     var cra : Int?
     
-    convenience init(nome: String, endereco: String, fone: String, salario: Double, cra: Int, qtdHorasTrab: Int = 8) {
-        self.init(nome: nome, endereco: endereco, fone: fone, salario: salario, qtdHorasTrab: qtdHorasTrab)
+    convenience init(nome: String, endereco: String, telefone: String, salario: Double, cra: Int, qtdHorasTrab: Int = 0) {
+        self.init(nome: nome, endereco: endereco, telefone: telefone, salario: salario, qtdHorasTrab: qtdHorasTrab)
         self.cra = cra
     }
-    
-    required init(nome: String, endereco: String, fone: String, salario: Double, qtdHorasTrab: Int) {
+
+    required init(nome: String, endereco: String, telefone: String, salario: Double, qtdHorasTrab: Int) {
         self.nome = nome
         self.endereco = endereco
-        self.fone = fone
+        self.telefone = telefone
         self.qtdHorasTrab = qtdHorasTrab
         self.salario = salario
     }
-    
+
 }
 
 

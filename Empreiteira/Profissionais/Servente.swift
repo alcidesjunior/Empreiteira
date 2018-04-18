@@ -9,20 +9,17 @@
 import Cocoa
 
 class Servente: Profissional {
-    
     var nome: String
     var endereco: String
-    var fone: String
+    var telefone: String
     var qtdHorasTrab: Int
     var salario: Double
     
-    required init(nome: String, endereco: String, fone: String, qtdHorasTrab: Int, salario: Double) {
+    required init(nome: String, endereco: String, fone: String, salario: Double, qtdHorasTrab: Int) {
         self.nome = nome
         self.endereco = endereco
-        self.fone = fone
+        self.telefone = telefone
         self.qtdHorasTrab = qtdHorasTrab
         self.salario = salario
     }
-    
-
 }

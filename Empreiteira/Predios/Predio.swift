@@ -15,13 +15,14 @@ enum Estado{
     case vendido
 }
 class Predio : Obra{
-    
+    var nome : String
     var estado : Estado
     var precoMQuad : Double //preco metro quadrado
     var andares : [Andar]
     let taxaFixa : Double = 0.03
     
-    init(estado: Estado, precoMQuad : Double, andares: [Andar],eng : Engenheiro, arq: Arquiteto, mest : [MestreDeObra], ped : [Pedreiro], serv : [Servente]) {
+    init(nome: String,estado: Estado, precoMQuad : Double, andares: [Andar],eng : Engenheiro, arq: Arquiteto, mest : [MestreDeObra], ped : [Pedreiro], serv : [Servente]) {
+        self.nome = nome
         self.precoMQuad = precoMQuad
         self.estado     = estado
         self.andares    = andares

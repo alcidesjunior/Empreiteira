@@ -9,7 +9,7 @@
 import Cocoa
 
 protocol Pessoa {
-    var nome : String{get}
-    var telefone : String{get}
-    init(nome: String,telefone: String)
+    var nome: String { get set }
+    var endereco : String { get set }
+    var telefone : String { get set }
 }

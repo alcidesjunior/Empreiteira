@@ -1,5 +1,5 @@
 //
-//  Vendedor.swift
+//  Cliente.swift
 //  Empreiteira
 //
 //  Created by Ada 2018 on 18/04/2018.
@@ -8,14 +8,14 @@
 
 import Cocoa
 
-class Vendedor: Pessoa {
+class Cliente: Pessoa {
     var nome: String
+    var endereco: String
     var telefone: String
-    var vendas : Vendas?
-    required init(nome: String, telefone: String) {
+    
+    required init(nome: String,endereco: String, telefone: String) {
         self.nome = nome
+        self.endereco = endereco
         self.telefone = telefone
     }
-    
-    
 }

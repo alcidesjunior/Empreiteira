@@ -71,7 +71,6 @@
 		BEB5A9BB208771DA006D4E4C /* Profissionais */ = {
 			isa = PBXGroup;
 			children = (
-				BEB5A9BC2087721E006D4E4C /* Profissional.swift */,
 				BEB5A9BE20877228006D4E4C /* Arquiteto.swift */,
 				BEB5A9C020877233006D4E4C /* Engenheiro.swift */,
 				BEB5A9C220877242006D4E4C /* MestreDeObra.swift */,
@@ -84,9 +83,7 @@
 		BEB5A9CA2087873C006D4E4C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BEB5A9CF2087B970006D4E4C /* Pessoa.swift */,
-				BEB5A9CB20878758006D4E4C /* Vendedor.swift */,
-				BEB5A9CD20878972006D4E4C /* Cliente.swift */,
+				BED834A920876F810082B2CC /* main.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -96,8 +93,19 @@
 			children = (
 				BED834B92087B1A50082B2CC /* Empreiteira.swift */,
 				BEB5A9D22087BBF6006D4E4C /* Vendas.swift */,
+				BEB5A9CB20878758006D4E4C /* Vendedor.swift */,
+				BEB5A9CD20878972006D4E4C /* Cliente.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BEB5A9D42087CF38006D4E4C /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+				BEB5A9CF2087B970006D4E4C /* Pessoa.swift */,
+				BEB5A9BC2087721E006D4E4C /* Profissional.swift */,
+			);
+			path = Protocolos;
 			sourceTree = "<group>";
 		};
 		BED8349D20876F810082B2CC = {
@@ -119,11 +127,11 @@
 		BED834A820876F810082B2CC /* Empreiteira */ = {
 			isa = PBXGroup;
 			children = (
+				BEB5A9D42087CF38006D4E4C /* Protocolos */,
 				BEB5A9D12087BBC9006D4E4C /* Model */,
 				BEB5A9CA2087873C006D4E4C /* Controller */,
 				BED834B0208771FC0082B2CC /* Predios */,
 				BEB5A9BB208771DA006D4E4C /* Profissionais */,
-				BED834A920876F810082B2CC /* main.swift */,
 			);
 			path = Empreiteira;
 			sourceTree = "<group>";
@@ -131,9 +139,9 @@
 		BED834B0208771FC0082B2CC /* Predios */ = {
 			isa = PBXGroup;
 			children = (
+				BED834B520878AC70082B2CC /* Andar.swift */,
 				BED834B1208772220082B2CC /* Predio.swift */,
 				BED834B3208772300082B2CC /* Apartamento.swift */,
-				BED834B520878AC70082B2CC /* Andar.swift */,
 				BED834B72087AF590082B2CC /* Obra.swift */,
 			);
 			path = Predios;
