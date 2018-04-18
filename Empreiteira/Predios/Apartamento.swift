@@ -9,5 +9,11 @@
 import Cocoa
 
 class Apartamento: NSObject {
-
+    var numAp : Int
+    var tamMQuad : Double
+    
+    init(numAp : Int, tamMQuad : Double){
+        self.numAp      = numAp
+        self.tamMQuad   = tamMQuad
+    }
 }

@@ -18,6 +18,7 @@
 		BED834AA20876F810082B2CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834A920876F810082B2CC /* main.swift */; };
 		BED834B2208772220082B2CC /* Predio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B1208772220082B2CC /* Predio.swift */; };
 		BED834B4208772300082B2CC /* Apartamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B3208772300082B2CC /* Apartamento.swift */; };
+		BED834B620878AC70082B2CC /* Andar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B520878AC70082B2CC /* Andar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		BED834A920876F810082B2CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BED834B1208772220082B2CC /* Predio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predio.swift; sourceTree = "<group>"; };
 		BED834B3208772300082B2CC /* Apartamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartamento.swift; sourceTree = "<group>"; };
+		BED834B520878AC70082B2CC /* Andar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Andar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				BED834B1208772220082B2CC /* Predio.swift */,
 				BED834B3208772300082B2CC /* Apartamento.swift */,
+				BED834B520878AC70082B2CC /* Andar.swift */,
 			);
 			path = Predios;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				BED834B2208772220082B2CC /* Predio.swift in Sources */,
 				BEB5A9C720877259006D4E4C /* Servente.swift in Sources */,
 				BEB5A9BF20877228006D4E4C /* Arquiteto.swift in Sources */,
+				BED834B620878AC70082B2CC /* Andar.swift in Sources */,
 				BEB5A9CE20878972006D4E4C /* Cliente.swift in Sources */,
 				BEB5A9CC20878758006D4E4C /* Vendedor.swift in Sources */,
 				BEB5A9BD2087721F006D4E4C /* Profissional.swift in Sources */,
