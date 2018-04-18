@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BED834AA20876F810082B2CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834A920876F810082B2CC /* main.swift */; };
+		BED834B2208772220082B2CC /* Predio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B1208772220082B2CC /* Predio.swift */; };
+		BED834B4208772300082B2CC /* Apartamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED834B3208772300082B2CC /* Apartamento.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		BED834A620876F810082B2CC /* Empreiteira */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Empreiteira; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED834A920876F810082B2CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BED834B1208772220082B2CC /* Predio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predio.swift; sourceTree = "<group>"; };
+		BED834B3208772300082B2CC /* Apartamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartamento.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		BED834A820876F810082B2CC /* Empreiteira */ = {
 			isa = PBXGroup;
 			children = (
+				BED834B0208771FC0082B2CC /* Predios */,
 				BED834A920876F810082B2CC /* main.swift */,
 			);
 			path = Empreiteira;
+			sourceTree = "<group>";
+		};
+		BED834B0208771FC0082B2CC /* Predios */ = {
+			isa = PBXGroup;
+			children = (
+				BED834B1208772220082B2CC /* Predio.swift */,
+				BED834B3208772300082B2CC /* Apartamento.swift */,
+			);
+			path = Predios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED834B4208772300082B2CC /* Apartamento.swift in Sources */,
+				BED834B2208772220082B2CC /* Predio.swift in Sources */,
 				BED834AA20876F810082B2CC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
