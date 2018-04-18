@@ -9,16 +9,12 @@
 import Cocoa
 
 class Engenheiro: Profissional {
+    
     var nome: String
-    
     var endereco: String
-    
     var fone: String
-    
     var qtdHorasTrab: Int
-    
     var salario: Double
-    
     var crea : Int?
     
     convenience init(nome: String, endereco: String, fone: String, qtdHorasTrab: Int, salario: Double, crea: Int){
