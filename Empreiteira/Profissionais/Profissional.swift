@@ -14,6 +14,6 @@ protocol Profissional {
     var fone : String { get set }
     var qtdHorasTrab: Int  { get set }
     var salario: Double  { get set }
-    init(nome: String, endereco: String, fone: String,qtdHorasTrab: Int,salario: Double)
+    init(nome: String, endereco: String, fone: String,salario: Double,qtdHorasTrab: Int)
 }
 

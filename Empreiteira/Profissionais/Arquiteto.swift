@@ -17,12 +17,12 @@ class Arquiteto: Profissional {
     var salario: Double
     var cra : Int?
     
-    convenience init(nome: String, endereco: String, fone: String, qtdHorasTrab: Int, salario: Double, cra: Int) {
-        self.init(nome: nome, endereco: endereco, fone: fone, qtdHorasTrab: qtdHorasTrab, salario: salario)
+    convenience init(nome: String, endereco: String, fone: String, salario: Double, cra: Int, qtdHorasTrab: Int) {
+        self.init(nome: nome, endereco: endereco, fone: fone, salario: salario, qtdHorasTrab: qtdHorasTrab)
         self.cra = cra
     }
     
-    required init(nome: String, endereco: String, fone: String, qtdHorasTrab: Int, salario: Double) {
+    required init(nome: String, endereco: String, fone: String, salario: Double, qtdHorasTrab: Int) {
         self.nome = nome
         self.endereco = endereco
         self.fone = fone
