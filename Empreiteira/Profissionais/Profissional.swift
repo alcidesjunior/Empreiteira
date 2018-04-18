@@ -8,6 +8,12 @@
 
 import Cocoa
 
-class Profissional: NSObject {
-
+protocol Profissional {
+    var nome: String { get set }
+    var endereco : String { get set }
+    var fone : String { get set }
+    var qtdHorasTrab: Int  { get set }
+    var salario: Double  { get set }
+    init(nome: String, endereco: String, fone: String,qtdHorasTrab: Int,salario: Double)
 }
+
