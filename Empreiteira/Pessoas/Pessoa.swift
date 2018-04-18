@@ -1,5 +1,5 @@
 //
-//  Vendedor.swift
+//  Pessoa.swift
 //  Empreiteira
 //
 //  Created by Ada 2018 on 18/04/2018.
@@ -8,6 +8,7 @@
 
 import Cocoa
 
-class Vendedor: Pessoa {
-    
+protocol Pessoa {
+    var nome : String{get}
+    var telefone : String{get}
 }
