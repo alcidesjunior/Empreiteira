@@ -11,9 +11,18 @@ import Cocoa
 class Apartamento: NSObject {
     var numAp : Int
     var tamMQuad : Double
-    
-    init(numAp : Int, tamMQuad : Double){
+    var vendido : Bool
+    var comprador : Cliente?
+    var vendedor : Vendedor?
+
+    init(numAp : Int, tamMQuad : Double, vendido : Bool =  false){
         self.numAp      = numAp
         self.tamMQuad   = tamMQuad
+        self.vendido = vendido
+    }
+    func venderAp(comprador : Cliente, vendedor : Vendedor){
+        self.comprador = comprador
+        self.vendedor = vendedor
+        self.vendido = true
     }
 }
