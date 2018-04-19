@@ -12,8 +12,8 @@ class Apartamento: NSObject {
     var numAp : Int
     var tamMQuad : Double
     var vendido : Bool
-    var comprador : Cliente?
-    var vendedor : Vendedor?
+    weak var comprador : Cliente?
+    weak var vendedor : Vendedor?
 
     init(numAp : Int, tamMQuad : Double, vendido : Bool){
         self.numAp      = numAp

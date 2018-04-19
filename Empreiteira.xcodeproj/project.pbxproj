@@ -80,7 +80,7 @@
 			path = Profissionais;
 			sourceTree = "<group>";
 		};
-		BEB5A9D12087BBC9006D4E4C /* Controlador */ = {
+		BEB5A9D12087BBC9006D4E4C /* Controladores */ = {
 			isa = PBXGroup;
 			children = (
 				BED834B92087B1A50082B2CC /* Empreiteira.swift */,
@@ -88,7 +88,7 @@
 				BEB5A9CB20878758006D4E4C /* Vendedor.swift */,
 				BEB5A9CD20878972006D4E4C /* Cliente.swift */,
 			);
-			path = Controlador;
+			path = Controladores;
 			sourceTree = "<group>";
 		};
 		BEB5A9D42087CF38006D4E4C /* Protocolos */ = {
@@ -121,22 +121,22 @@
 			children = (
 				BED834A920876F810082B2CC /* main.swift */,
 				BEB5A9D42087CF38006D4E4C /* Protocolos */,
-				BEB5A9D12087BBC9006D4E4C /* Controlador */,
-				BED834B0208771FC0082B2CC /* Predios */,
+				BEB5A9D12087BBC9006D4E4C /* Controladores */,
+				BED834B0208771FC0082B2CC /* Obras */,
 				BEB5A9BB208771DA006D4E4C /* Profissionais */,
 			);
 			path = Empreiteira;
 			sourceTree = "<group>";
 		};
-		BED834B0208771FC0082B2CC /* Predios */ = {
+		BED834B0208771FC0082B2CC /* Obras */ = {
 			isa = PBXGroup;
 			children = (
-				BED834B520878AC70082B2CC /* Andar.swift */,
-				BED834B1208772220082B2CC /* Predio.swift */,
-				BED834B3208772300082B2CC /* Apartamento.swift */,
 				BED834B72087AF590082B2CC /* Obra.swift */,
+				BED834B1208772220082B2CC /* Predio.swift */,
+				BED834B520878AC70082B2CC /* Andar.swift */,
+				BED834B3208772300082B2CC /* Apartamento.swift */,
 			);
-			path = Predios;
+			path = Obras;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
