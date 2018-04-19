@@ -23,7 +23,6 @@ var empreteiro : Empreiteira = Empreiteira(eng: engenheiro, arq: arquiteto, mest
 var predio       :  [Predio] = [Predio(nome: "Predio do Alcides", estado: Estado.planejamento, precoMQuad: 400, andares: andares, eng: engenheiro[0], arq: arquiteto[0], mest: mestreDeObra, ped: pedreiro, serv: servente)]
 
 empreteiro.adicionaPredio(predio: predio[0])
-//empreteiro.listaPredios()
 var menu : Int?
 repeat {
     print("=============================================")
