@@ -39,11 +39,11 @@ repeat {
     print("=============================================")
 
     switch menu {
-        case 1:
+    case 1?:
             empreteiro.listaPredios()
-        case 2:
+    case 2?:
             empreteiro.listaFuncionarios()
-        case 3:
+    case 3?:
             print("Informe os dados do prédio: ")
             
         default:
