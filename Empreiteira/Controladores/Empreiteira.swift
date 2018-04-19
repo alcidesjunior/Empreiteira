@@ -36,20 +36,21 @@ class Empreiteira: NSObject {
     
     func listaPredios(){
         // Terá um ID para o usuário poder selecionar
-        self.predio.forEach(){print($0.nome);}
+        print("\n-------- Lista de prédios -----------")
+        self.predio.forEach(){print($0.nome)}
     }
     
     func listaFuncionarios(){
-        print("\n============ Arquiteto ==============")
+        print("\n----------- Arquiteto ---------------")
         self.arquiteto.forEach(){print("\($0.nome)");}
-        print("\n=========== Engenheiro ==============")
+        print("\n----------- Engenheiro --------------")
         self.engenheiro.forEach(){print("\($0.nome)");}
-        print("\n========== Mestre de obra ===========")
+        print("\n---------- Mestre de obra -----------")
         self.mestreDeObra.forEach(){print("\($0.nome)");}
-        print("\n============ Pedreiro ===============")
-        self.pedreiro.forEach(){print("\($0.nome)");}
-        print("\n============ Servente ===============")
-        self.servente.forEach(){print("\($0.nome)");}
+        print("\n------------ Pedreiro ---------------")
+        self.pedreiro.forEach(){print("\($0.nome)")}
+        print("\n------------ Servente ---------------")
+        self.servente.forEach(){print("\($0.nome)")}
     }
 }
 
