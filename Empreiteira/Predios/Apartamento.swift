@@ -15,10 +15,14 @@ class Apartamento: NSObject {
     var comprador : Cliente?
     var vendedor : Vendedor?
 
-    init(numAp : Int, tamMQuad : Double, vendido : Bool =  false){
+    init(numAp : Int, tamMQuad : Double, vendido : Bool){
         self.numAp      = numAp
         self.tamMQuad   = tamMQuad
         self.vendido = vendido
     }
-    
+    init(numAp : Int, tamMQuad : Double){
+        self.numAp      = numAp
+        self.tamMQuad   = tamMQuad
+        self.vendido = false
+    }
 }

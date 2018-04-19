@@ -15,7 +15,7 @@ class Servente: Profissional {
     var qtdHorasTrab: Int
     var salario: Double
     
-    required init(nome: String, endereco: String, fone: String, salario: Double, qtdHorasTrab: Int) {
+    required init(nome: String, endereco: String, telefone: String, salario: Double, qtdHorasTrab: Int) {
         self.nome = nome
         self.endereco = endereco
         self.telefone = telefone

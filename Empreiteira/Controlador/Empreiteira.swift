@@ -15,8 +15,8 @@ class Empreiteira: NSObject {
     var mestreDeObra :  [MestreDeObra]
     var pedreiro     :  [Pedreiro]
     var servente     :  [Servente]
-    init(predio: [Predio],eng : [Engenheiro], arq: [Arquiteto], mest : [MestreDeObra], ped : [Pedreiro], serv : [Servente]){
-        self.predio = predio
+    init(eng : [Engenheiro], arq: [Arquiteto], mest : [MestreDeObra], ped : [Pedreiro], serv : [Servente]){
+        self.predio = []
         self.engenheiro = eng
         self.arquiteto = arq
         self.mestreDeObra = mest
