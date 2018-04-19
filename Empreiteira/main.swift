@@ -45,7 +45,22 @@ repeat {
             empreteiro.listaFuncionarios()
     case 3?:
             print("Informe os dados do prédio: ")
-            
+//            var predio       :  [Predio] = [Predio(nome: "Predio do Alcides", estado: Estado.planejamento, precoMQuad: 400, andares: andares, eng: engenheiro[0], arq: arquiteto[0], mest: mestreDeObra, ped: pedreiro, serv: servente)]
+//        let nomePredio = readLine()
+//        let estadoPredio = readLine()
+//        let precoMQuad = Double(readLine()!)
+//        let qtdAndares = Int(readLine()!)
+//            if nomePredio != nil{
+//                if estadoPredio != nil{
+//                    if precoMQuad != nil{
+//                        if qtdAndares !=nil{
+//                            for 0...qtdAndares{
+//
+//                            }
+//                        }
+//                    }
+//                }
+//            }
         default:
             print("Opção informada invalida, tente novamente!")
     }

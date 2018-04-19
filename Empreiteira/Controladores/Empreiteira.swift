@@ -38,7 +38,7 @@ class Empreiteira: NSObject {
         // Terá um ID para o usuário poder selecionar
         print("\n-------- Lista de prédios -----------")
         for (index,elemento) in (self.predio).enumerated(){
-            print("\(index):  \(elemento.nome) | Estado: \(elemento.estado.hashValue)")
+            print("\(index):  \(elemento.nome) | Estado: \(elemento.estado)")
         }
     }
     
