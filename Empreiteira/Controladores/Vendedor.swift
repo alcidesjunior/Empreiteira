@@ -22,11 +22,15 @@ class Vendedor: Pessoa {
     func listaApAVenda(predio: Predio){
         // Entra em Predio
         // Lista os andres
-        // Mostra os Ap.vendidos == false
-//        let myFilter = (predio.andares.filter{($0.apartamentos)}).apartamentos.first?.filter{$0.vendidos == false}.first?
+        
         let myFilter = predio.andares.map{$0.apartamentos.first}.filter{$0?.vendido == false}
-        myFilter.forEach{print($0!.numAp)}
-
+        myFilter.forEach{
+            if let zero = $0{
+                print(zero.numAp)
+            }
+        }
     }
+    
+    
     
 }
