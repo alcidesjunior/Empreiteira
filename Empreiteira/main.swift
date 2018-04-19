@@ -28,9 +28,9 @@ repeat {
     print("=============================================")
     print("1- Liste todos os prédios disponíveis")
     print("2- Liste todos os funcionários")
-    print("3- Entrar em prédios específico")
-    print("4- ")
-    print("5- ")
+    print("3- Adicionar prédio")
+    print("4- Adicionar funcionário")
+    print("5- Editar obra")
     print("Selecione uma das opções: ",terminator:"")
     let inputNumber = Int(readLine()!)
     if let inputNumber = inputNumber {
@@ -44,7 +44,8 @@ repeat {
         case 2:
             empreteiro.listaFuncionarios()
         case 3:
-            print("")
+            print("Informe os dados do prédio: ")
+            
         default:
             print("Opção informada invalida, tente novamente!")
     }

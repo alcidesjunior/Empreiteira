@@ -37,7 +37,9 @@ class Empreiteira: NSObject {
     func listaPredios(){
         // Terá um ID para o usuário poder selecionar
         print("\n-------- Lista de prédios -----------")
-        self.predio.forEach(){print($0.nome)}
+        for (index,elemento) in (self.predio).enumerated(){
+            print("\(index):  \(elemento.nome) | Estado: \(elemento.estado.hashValue)")
+        }
     }
     
     func listaFuncionarios(){
@@ -51,6 +53,34 @@ class Empreiteira: NSObject {
         self.pedreiro.forEach(){print("\($0.nome)")}
         print("\n------------ Servente ---------------")
         self.servente.forEach(){print("\($0.nome)")}
+    }
+    func listaArquiteto(){
+        for (index,elemento) in (self.arquiteto).enumerated(){
+            print("\(index):  \(elemento.nome)")
+        }
+    }
+    func ListaEngenheiro(){
+        for (index,elemento) in (self.engenheiro).enumerated(){
+            print("\(index):  \(elemento.nome)")
+        }
+    }
+    
+    func ListaMestreDeObras(){
+        for (index,elemento) in (self.mestreDeObra).enumerated(){
+            print("\(index):  \(elemento.nome)")
+        }
+    }
+    
+    func ListaPedreiro(){
+        for (index,elemento) in (self.pedreiro).enumerated(){
+            print("\(index):  \(elemento.nome)")
+        }
+    }
+    
+    func ListaServente(){
+        for (index,elemento) in (self.servente).enumerated(){
+            print("\(index):  \(elemento.nome)")
+        }
     }
 }
 
